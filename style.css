@@ -1,0 +1,43 @@
+:root {
+  --base: rgb(16, 48, 86);
+  --main-text: rgb(248, 248, 248);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--base);
+  color: var(--main-text);
+}
+
+h1 {
+  margin: 20px 0 10px 40px;
+  font-size: 60px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: flex-end;
+}
+
+.nav li {
+  margin: 20px 100px 8px 0;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  nav {
+    flex-direction: column;
+  }
+}
