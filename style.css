@@ -102,7 +102,7 @@ section {
   display: flex;
   height: 600px;
   width: 100%;
-  margin: 10px 30px;
+  margin: 10px 10px 0 10px;
   background-image: url(./images/horiseon.png);
 }
 
@@ -115,7 +115,7 @@ section {
 }
 
 .project {
-  margin: 10px 30px;
+  /* margin: 10px 30px; */
   background-color: rgb(143, 143, 230);
 }
 
@@ -130,7 +130,7 @@ section {
 .other-project {
   display: flex;
   height: 280px;
-  margin: 0px;
+  margin-top: 10px;
 }
 
 /* -------- REACTIVE ELEMENTS -------------- */
