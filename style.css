@@ -35,9 +35,44 @@ h1 {
   font-size: 25px;
 }
 
+section {
+  background-color: var(--main-text);
+  color: var(--base);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-header {
+  width: 20%;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.my-pic {
+  width: auto;
+  height: 400px;
+  margin: 0;
+}
+
+.bio {
+  width: 50%;
+  text-align: center;
+  margin: 0 20px 0 40px;
+}
+
 @media screen and (max-width: 768px) {
   header,
-  nav {
+  .nav,
+  section {
     flex-direction: column;
+  }
+  .section-header {
+    height: fit-content;
+    background-color: var(--main-text);
   }
 }
